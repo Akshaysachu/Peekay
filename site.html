@@ -3,23 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.cover{
-background: url("cover.png")no-repeat center center;
-
-    	background-size: cover;
-}
-
-.view{
-height:100%;
-}
-
-body {
-  background: url("C:\\Users\\Home\\Desktop\\PeekayConcepts\\images\\cover.png")no-repeat center center;
-}
-
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:transparent;
 }
 
 .topnav a {
@@ -36,10 +22,6 @@ body {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 .topnav input[type=text] {
   float: right;
   padding: 6px;
@@ -51,31 +33,56 @@ body {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
-span{
+.div2{
+background: url("cover.png")no-repeat center center;
+background-size:cover;
+height:100%;
+}
+.div2 span{
 color:yellow;
 }
-button{
-background-color:brown;
-color:black;
+.div2 p{
+color:white;
+font-size:56px
 }
-button:hover{
-background-color:black;
-color:red;
+.div2 h4{
+color:white;
+}
+.div2 button{
+margin-top:-10px;
+position:absolute;
+left:6%;
+color:white;
+border:solid 2px white;
+background-color:transparent;
+}
 </style>
 </head>
 <body>
 
-<div class="topnav">
+<div class="div1">
+<div class="div2" style="padding-left:56px">
+  <div class="topnav">
   <input type="text" placeholder="Search..">
   <a href="#Wellness">WELLNESS</a>
   <a href="#Surface">SURFACE</a>
   <a href="#Kitchen">KITCHEN</a>
   <a href="#Bathroom">BATHROOM</a>
+  <img src="logo.png"
+   style="width:75px;height:75px;">
 </div>
 
-<div style="padding-left:56px">
-  <h1>YOUR<br>DREAM<span>HOME!</span></h1>
-  <h5>peekay makes them happen...</h5>
+  <p>YOUR<br>DREAM<span>HOME!</span><br></p>
+  <h4 style="margin-top:-50px;">peekay makes them happen...</h4>
+  <button>VIEW PRODUCTS</button>
+</div>
+<div class="div3" style="background-color:#414143;
+	height:auto;
+	width:70%;
+	margin:0 auto;
+	margin-top:20px;">
+<p style="color:white"><span>1000+</span><br>
+</p>
 </div>
 
 </body>
