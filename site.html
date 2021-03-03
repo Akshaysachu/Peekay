@@ -1,89 +1,95 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>peekay concepts</title>
 <style>
-.topnav {
-  overflow: hidden;
-  background-color:transparent;
-}
+	.topnav {
+  		overflow: hidden;
+  		background-color:transparent;
+		}
 
-.topnav a {
-  float: right;
-  text-align: center;
-  color: #f2f2f2;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 9px;
-}
+	.topnav a {
+ 		 float: right;
+  		 text-align: center;
+  		 color: #f2f2f2;
+  		 padding: 14px 16px;
+  		 text-decoration: none;
+ 		 font-size: 12px;
+ 		 font-weight:900;
+		 }
+	.topnav a:hover {
+ 		 background-color: #ddd;
+ 		 color: black;
+		 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+	.topnav input[type=text] {
+  		float: right;	
+		padding: 6px;
+ 		border: none;
+ 		margin-top: 8px;
+  		margin-right: 16px;
+ 		font-size: 9px;
+		}
+	.topnav input[type=text] {
+		border: 1px solid #ccc;
+		}
+	.view{
+		height:100%;
+		}
+	.view1{
+		background: url("cover.png")no-repeat center center;
+			    background-size:cover;
+		}
+	.box1{
 
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 9px;
-}
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
-  }
-.div2{
-background: url("cover.png")no-repeat center center;
-background-size:cover;
-height:100%;
-}
-.div2 span{
-color:yellow;
-}
-.div2 p{
-color:white;
-font-size:56px
-}
-.div2 h4{
-color:white;
-}
-.div2 button{
-margin-top:-10px;
-position:absolute;
-left:6%;
-color:white;
-border:solid 2px white;
-background-color:transparent;
-}
+		height:auto;
+		width:70%;
+		background-color:#414143;
+		margin:10%;
+		margin-left:15%;
+		margin-top:23%
+		}
 </style>
 </head>
 <body>
-
-<div class="div1">
-<div class="div2" style="padding-left:56px">
-  <div class="topnav">
-  <input type="text" placeholder="Search..">
-  <a href="#Wellness">WELLNESS</a>
-  <a href="#Surface">SURFACE</a>
-  <a href="#Kitchen">KITCHEN</a>
-  <a href="#Bathroom">BATHROOM</a>
-  <img src="logo.png"
-   style="width:75px;height:75px;">
-</div>
-
-  <p>YOUR<br>DREAM<span>HOME!</span><br></p>
-  <h4 style="margin-top:-50px;">peekay makes them happen...</h4>
-  <button>VIEW PRODUCTS</button>
-</div>
-<div class="div3" style="background-color:#414143;
-	height:auto;
-	width:70%;
-	margin:0 auto;
-	margin-top:20px;">
-<p style="color:white"><span>1000+</span><br>
-</p>
-</div>
-
+	<div class="view view1">
+		<div class="topnav">
+			<input type="text" placeholder="Search..">
+			<a href="#Wellness">WELLNESS</a>
+			<a href="#Surface">SURFACE</a>
+			<a href="#Kitchen">KITCHEN</a>
+			<a href="#Bathroom">BATHROOM</a>
+			<img src="logo.png"
+		 	   style="width:75px;height:75px;">
+		</div>
+		<div class="view1_content">
+			<p style="color:white;
+				font-size:56px;
+				font-weight:900;
+				padding-left:56px">YOUR<br>DREAM<span style="color:#eab221;">HOME!</span><br></p>
+			<h4 style="margin-top:-50px;color:white;padding-left:56px">peekay makes them happen...</h4>
+			<button style="margin-top:-10px;
+					position:absolute;
+					left:6%;
+					color:white;
+					border:solid 2px white;
+					padding:13px;
+					width:auto;
+					background-color:transparent;">VIEW PRODUCTS</button>
+		</div>
+		<div class="box1" style="padding:25px; text-align:center;">
+			<div class="row1">
+				<span style="color:#eab221; font-weight:600; text-align:left; padding:50px;font-size:40px;">1000+</span>
+				<span style="color:#eab221; font-weight:600; text-align:center; padding:50px;font-size:40px;">900+</span>
+				<span style="color:#eab221; font-weight:600; text-aling:right; padding:50px;font-size:40px;">2Million+</span>
+			</div>
+			<div class="row2">
+				<span style="color:white; font-weight:600; text-align:left; padding:30px; font-size:15px;">PREMIUM BRANDS</span>
+				<span style="color:white; font-weight:600; text-align:center; padding:50px; font-size:15px;">INDUSTRIES</span>
+				<span style="color:white; font-weight:600; text-align:right; padding:75px; font-size:15px;">HAPPY CUSTOMERS</span>					
+			</div>
+		</div>
+	</div>
+	<div class="view view2">
+	</div>
 </body>
 </html>
