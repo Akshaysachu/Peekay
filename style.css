@@ -28,10 +28,6 @@
 	.topnav input[type=text] {
 		border: 1px solid #ccc;
 		}
-	.view{
-		height:100%;
-		}
-		
 	.view_final{
 		height:70%;
 	
@@ -39,6 +35,16 @@
 	.view1{
 		background: url("cover.png")no-repeat center center;
 			    background-size:cover;
+		height:100%;
+		}
+	.view2{
+		height:100%;
+		}
+	.view3{
+		height:auto;
+		}
+	.view4{
+		height:auto;
 		}
 	.box1{
 		height:auto;
@@ -75,16 +81,16 @@
 		float:right;
 		width:40%;
 		height:108%;
-		margin-top:-49%;
+		margin-top:-54%;
 		margin-right:8%;
 		}
-	.box3{
+	.box4{
 		height:60%;
 		width:100%;
 		background-color:#eab221;
 		margin-top:10%
 		}
-	.box4{
+	.box5{
 		height:auto;
 		width:59%;
 		background-color:#eab221;
@@ -94,11 +100,15 @@
 		margin-left:40%;
 		margin-top:-37%;
 		}
+	.view7{
+		margin-top:19%;
+		}
 	#view7_notes{
 		font-size:25px;
 		}
 	.view8{
 		background-color:#696969;
+		height:auto;
 		}
 	.logo_footer{
 		width:10%;
